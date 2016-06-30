@@ -18,7 +18,6 @@ var rng = rngFactory.create({
         }
     });
 
-// var rng = rngFactory.create({debug: true, cacheSize: 10});
 if (rng.err) {
     console.error('Error: ' + rng.err.message);
 } else {
