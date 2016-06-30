@@ -1,0 +1,58 @@
+{
+  "name": "fast-random-factory-example",
+  "version": "1.0.0",
+  "description": "Example use case and TDD of fast-random-factory node module.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node debug index.js",
+    "karma": "karma start",
+    "karma-debug": "karma start --log-level debug --single-run",
+    "jasmine": "JASMINE_CONFIG_PATH=test/config/jasmine.json /usr/local/bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eksiir/fast-random-factory-example.git"
+  },
+  "keywords": [
+    "random",
+    "fast",
+    "factory",
+    "fast-random-factory"
+  ],
+  "author": {
+    "email": "bbehzadi@eksiir.tech",
+    "name": "Behnam Behzadi"
+  },
+  "maintainers": [
+    {
+      "email": "bbehzadi@eksiir.tech",
+      "name": "Behnam Behzadi"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eksiir/fast-random-factory-example/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/eksiir/fast-random-factory-example#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "fast-random-factory": "^1.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-safari-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
